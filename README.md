@@ -6,7 +6,7 @@ A template from the internet . I only re-cook to .Net Core 2.2 and add Layout .
 
 You can give me a STAR if you think it's usful.
 
-If you don't like the layout I did , you can  get pure source from the blow link.
+If you don't like the layout I did , you can  get pure source code from the blow link.
 
 Source : https://templatemag.com/dashio-bootstrap-admin-template/
 
