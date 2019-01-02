@@ -1,0 +1,34 @@
+﻿@page
+@model DashioTemplateCore.Pages.dropzoneModel
+@{
+    ViewData["Title"] = "dropzone";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+
+<section id="main-content">
+    <section class="wrapper site-min-height">
+        <h3><i class="fa fa-angle-right"></i> Dropzone File Upload</h3>
+        <div class="row mt">
+            <div class="white-panel mt">
+                <div class="panel-body">
+                    <form action="assets/dropzone/upload.php" class="dropzone" id="my-awesome-dropzone"></form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /wrapper -->
+</section>
+
+@section footerJS{
+
+    <script src="lib/dropzone/dropzone.js"></script>
+
+
+    <script>
+
+        $('#li_components').attr('class', 'active');
+        $('#li_dropzone').attr('class', 'active');
+    </script>
+
+}

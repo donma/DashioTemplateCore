@@ -1,0 +1,107 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\js\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\advanced-datatable\images\Sorting icons.psd" />
+    <None Include="wwwroot\lib\advanced-datatable\js\DT_bootstrap.js" />
+    <None Include="wwwroot\lib\advanced-datatable\js\jquery.dataTables.js" />
+    <None Include="wwwroot\lib\advanced-datatable\js\jquery.dataTables.min.js" />
+    <None Include="wwwroot\lib\advanced-datatable\js\jquery.js" />
+    <None Include="wwwroot\lib\advanced-form-components.js" />
+    <None Include="wwwroot\lib\bootstrap-datepicker\js\bootstrap-datepicker.js" />
+    <None Include="wwwroot\lib\bootstrap-daterangepicker\date.js" />
+    <None Include="wwwroot\lib\bootstrap-daterangepicker\daterangepicker.js" />
+    <None Include="wwwroot\lib\bootstrap-daterangepicker\moment.min.js" />
+    <None Include="wwwroot\lib\bootstrap-datetimepicker\js\bootstrap-datetimepicker.js" />
+    <None Include="wwwroot\lib\bootstrap-fileupload\bootstrap-fileupload.js" />
+    <None Include="wwwroot\lib\bootstrap-inputmask\bootstrap-inputmask.min.js" />
+    <None Include="wwwroot\lib\bootstrap-switch.js" />
+    <None Include="wwwroot\lib\bootstrap-timepicker\js\bootstrap-timepicker.js" />
+    <None Include="wwwroot\lib\bootstrap-wysihtml5\bootstrap-wysihtml5.js" />
+    <None Include="wwwroot\lib\bootstrap-wysihtml5\wysihtml5-0.3.0.js" />
+    <None Include="wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\lib\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\calendar-conf-events.js" />
+    <None Include="wwwroot\lib\chart-master\Chart.js" />
+    <None Include="wwwroot\lib\chartjs-conf.js" />
+    <None Include="wwwroot\lib\ckeditor\ckeditor.js" />
+    <None Include="wwwroot\lib\common-scripts.js" />
+    <None Include="wwwroot\lib\dropzone\dropzone.js" />
+    <None Include="wwwroot\lib\easy-pie-chart.js" />
+    <None Include="wwwroot\lib\fancybox\jquery.fancybox.js" />
+    <None Include="wwwroot\lib\file-uploader\js\cors\jquery.xdr-transport.js" />
+    <None Include="wwwroot\lib\file-uploader\js\jquery.fileupload-audio.js" />
+    <None Include="wwwroot\lib\file-uploader\js\jquery.fileupload-image.js" />
+    <None Include="wwwroot\lib\file-uploader\js\jquery.fileupload-process.js" />
+    <None Include="wwwroot\lib\file-uploader\js\jquery.fileupload-ui.js" />
+    <None Include="wwwroot\lib\file-uploader\js\jquery.fileupload-validate.js" />
+    <None Include="wwwroot\lib\file-uploader\js\jquery.fileupload-video.js" />
+    <None Include="wwwroot\lib\file-uploader\js\jquery.fileupload.js" />
+    <None Include="wwwroot\lib\file-uploader\js\jquery.iframe-transport.js" />
+    <None Include="wwwroot\lib\file-uploader\js\main.js" />
+    <None Include="wwwroot\lib\file-uploader\js\vendor\jquery.ui.widget.js" />
+    <None Include="wwwroot\lib\flotchart-conf.js" />
+    <None Include="wwwroot\lib\flot\jquery.flot.crosshair.js" />
+    <None Include="wwwroot\lib\flot\jquery.flot.js" />
+    <None Include="wwwroot\lib\flot\jquery.flot.pie.js" />
+    <None Include="wwwroot\lib\flot\jquery.flot.resize.js" />
+    <None Include="wwwroot\lib\flot\jquery.flot.stack.js" />
+    <None Include="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\lib\form-component.js" />
+    <None Include="wwwroot\lib\form-validation-script.js" />
+    <None Include="wwwroot\lib\fullcalendar\fullcalendar.min.js" />
+    <None Include="wwwroot\lib\google-maps\data\points.js" />
+    <None Include="wwwroot\lib\google-maps\maplace.js" />
+    <None Include="wwwroot\lib\gritter-conf.js" />
+    <None Include="wwwroot\lib\gritter\js\jquery.gritter.js" />
+    <None Include="wwwroot\lib\jquery-easy-pie-chart\jquery.easy-pie-chart.js" />
+    <None Include="wwwroot\lib\jquery-ui-1.9.2.custom.min.js" />
+    <None Include="wwwroot\lib\jquery.backstretch.min.js" />
+    <None Include="wwwroot\lib\jquery.dcjqaccordion.2.7.js" />
+    <None Include="wwwroot\lib\jquery.nicescroll.js" />
+    <None Include="wwwroot\lib\jquery.scrollTo.min.js" />
+    <None Include="wwwroot\lib\jquery.sparkline.js" />
+    <None Include="wwwroot\lib\jquery.tagsinput.js" />
+    <None Include="wwwroot\lib\jquery.ui.touch-punch.min.js" />
+    <None Include="wwwroot\lib\jquery\jquery.js" />
+    <None Include="wwwroot\lib\jquery\jquery.min.js" />
+    <None Include="wwwroot\lib\morris-conf.js" />
+    <None Include="wwwroot\lib\morris\morris.min.js" />
+    <None Include="wwwroot\lib\php-mail-form\validate.js" />
+    <None Include="wwwroot\lib\raphael\raphael.min.js" />
+    <None Include="wwwroot\lib\sparkline-chart.js" />
+    <None Include="wwwroot\lib\tasks.js" />
+    <None Include="wwwroot\lib\xchart\d3.v3.min.js" />
+    <None Include="wwwroot\lib\xchart\xcharts.min.js" />
+    <None Include="wwwroot\lib\zabuto_calendar.js" />
+  </ItemGroup>
+
+</Project>
