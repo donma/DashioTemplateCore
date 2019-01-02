@@ -5,7 +5,7 @@
 
 A template from the internet . I only re-cook to .Net Core 2.2 and add Layout .
 
-You can give me a STAR if you think it's usful. :)
+You can give me a STAR if you think it's useful. :)
 
 If you don't like the layout I did , you can  get pure source code from the blow link.
 
