@@ -1,4 +1,4 @@
-# DashinoTemplateCore
+# DashioTemplateCore
 
 
 Source : https://templatemag.com/dashio-bootstrap-admin-template/
